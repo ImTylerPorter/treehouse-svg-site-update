@@ -34,17 +34,21 @@ a {
 header {
   padding-top: 10px;
 }
-  header nav {
-    padding-bottom: 50px;
-    text-align: left;
-  }
-  header nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  header h1 {
-    line-height: 1em;
-  }
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+header nav ul li:hover > a > svg > path { 
+  fill: #111;
+   }
+header h1 {
+  line-height: 1em;
+}
 
 /*- - - - - - - - - - - - - - - - - - - - - 
 // NAV ICONS
@@ -118,6 +122,11 @@ main {
 /*--  RED DOG  --*/
 .red-dog-coat {
   fill: #BA8058;
+  -webkit-transition: all 0.5s ease;                  
+  -moz-transition: all 0.5s ease;                 
+  -o-transition: all 0.5s ease;   
+  -ms-transition: all 0.5s ease;          
+  transition: all 0.5s ease;  
 }
 .red-dog-coat:hover {
   opacity: .8;
@@ -127,10 +136,14 @@ main {
 
 .fawn-dog-coat{
   fill: #EAAA7F;
+  -webkit-transition: all 0.5s ease;                  
+  -moz-transition: all 0.5s ease;                 
+  -o-transition: all 0.5s ease;   
+  -ms-transition: all 0.5s ease;          
+  transition: all 0.5s ease;
 }
 .fawn-dog-coat:hover {
-  opacity: .8;
-}
+  opacity: .8;}
 .fawn-dog-eyebrow {
   fill: #F4C6A6;
 }
@@ -139,6 +152,11 @@ main {
 
 .sable-dog-coat{
   fill: #844B24;
+  -webkit-transition: all 0.5s ease;                  
+  -moz-transition: all 0.5s ease;                 
+  -o-transition: all 0.5s ease;   
+  -ms-transition: all 0.5s ease;          
+  transition: all 0.5s ease;  
 }
 .sable-dog-coat:hover {
   opacity: .8
@@ -147,11 +165,23 @@ main {
 /*--  BLACK-TAN DOG  --*/
 .tan-dog-coat{
   fill: #BA8058;
+  -webkit-transition: all 0.5s ease;                  
+  -moz-transition: all 0.5s ease;                 
+  -o-transition: all 0.5s ease;   
+  -ms-transition: all 0.5s ease;          
+  transition: all 0.5s ease;  
 }
 .tan-dog-coat:hover {
 }
 .dog-dark-fur {
   fill: #52595F;
+}
+.black-tan-dog-fade{
+  -webkit-transition: all 0.5s ease;                  
+  -moz-transition: all 0.5s ease;                 
+  -o-transition: all 0.5s ease;   
+  -ms-transition: all 0.5s ease;          
+  transition: all 0.5s ease;
 }
 .black-tan-dog-fade:hover {
   opacity: .8;
